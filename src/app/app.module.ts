@@ -6,7 +6,7 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    // AppComponent,
     HelloWorldComponent
   ],
   entryComponents: [HelloWorldComponent],
@@ -14,7 +14,7 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  // bootstrap: [AppComponent]
 })
 export class AppModule { 
   ngDoBootstrap(){}
